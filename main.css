@@ -216,3 +216,37 @@
   margin-bottom: 10px;
   width: 50px;
 }
+
+
+.input {
+  width: 100%; /* Kenglikni 100% qilish */
+  max-width: 500px; /* Maksimal kenglik qo‘shildi */
+  padding: 15px 20px; /* Ichki padding sozlandi */
+  font-size: 18px; /* Matn o‘lchami */
+  border: 1px solid rgba(117, 117, 117, 0.3); /* Yengil chegara */
+  border-radius: 10px; /* Burchaklarni yumshatish */
+  background-color: rgb(250, 250, 250); /* Yengil fon rangi */
+  outline: none; /* Fokusda qora chegara chiqishining oldini olish */
+  transition: all 0.3s ease-in-out; /* Yumshoq o‘tish */
+}
+
+.input:focus {
+  border-color: #0e0d5d; /* Fokuslangan holatda chegaraning rangini o‘zgartirish */
+  background-color: #fff; /* Yorqinroq fon */
+}
+.parol {
+  width: 100%; /* Kenglikni 100% qilish */
+  max-width: 500px; /* Maksimal kenglik */
+  padding: 15px 20px; /* Ichki padding */
+  font-size: 18px; /* Matn o‘lchami */
+  border: 1px solid rgba(117, 117, 117, 0.3); /* Yengil chegara */
+  border-radius: 10px; /* Burchaklarni yumshatish */
+  background-color: rgb(250, 250, 250); /* Yengil fon rangi */
+  outline: none; /* Fokusda qora chegara chiqmasligi uchun */
+  transition: all 0.3s ease-in-out; /* Yumshoq o‘tish */
+}
+
+.parol:focus {
+  border-color: #0e0d5d; /* Fokuslangan holatda chegara rangini o‘zgartirish */
+  background-color: #fff; /* Yorqinroq fon */
+}
